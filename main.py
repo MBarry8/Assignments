@@ -34,7 +34,6 @@ resources = {
 }
 
 
-### Complete functions ###
 
 class SandwichMachine:
 
@@ -84,10 +83,9 @@ class SandwichMachine:
             print("Sorry, we don't have that size of sandwich available.")
 
 
-# Instantiate SandwichMachine with initial resources
 machine = SandwichMachine(resources)
 
-# Example usage:
+
 print("Welcome to the Sandwich Machine!")
 size = input("What size sandwich would you like (small/medium/large)? ").lower()
 
